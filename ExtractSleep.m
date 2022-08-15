@@ -5,14 +5,14 @@ close all;
 Data=readtable('Toy_data.csv'); % The adress tp to the Polar CSV file name
 METvalues=(table2array(Data(:,3))); % MET values are in the 3rd row
 DateTime=(table2array(Data(:,2))); % date and time are in the 
-DateTime.Format='HH:mm:ss';
-Time= cellstr(DateTime);
+DateTime.Format='HH:mm:ss'; % Define the format for time 
+Time= cellstr(DateTime); % Seperate time
 
-DateTime.Format = 'dd-MMM-yyyy';
-Date = cellstr(DateTime); 
+DateTime.Format = 'dd-MMM-yyyy'; % Define the format for date
+Date = cellstr(DateTime);  % seperate the date
 
 
-DateList=sort(datetime(unique(Date(:,1))));
+DateList=sort(datetime(unique(Date(:,1)))); % Get the list of days/dates in the file
 
 
 varTypes = {'datetime','string','datetime','string'};
