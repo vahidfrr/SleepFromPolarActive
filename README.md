@@ -4,4 +4,8 @@ This sctipt will first find all the sustainded movement bouts lasting (MET value
 
 Use [Toy_data.csv](https://github.com/vahidfrr/SleepFromPolarActive/blob/main/Toy_data.csv) to run the code. 
 
-# output
+# Output
+
+The output is a series of figure, marking the sleep periods on top of MET values. 
+
+The period per day will be in the list: RecRestSleep_List
