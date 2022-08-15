@@ -43,7 +43,7 @@ for k=2:length(DateList)-1 %First day is always excluded
     vector_SuspectedNonWear=NaN(length(METValues_OneDay),1); 
     
     
-    %%%%%Check for non-wear. All bouts more than XX hours with measurement
+    %%%%%Check for non-wear. All bouts more than 2.5 hours with measurement
     %%%%%constantly < 1 MET is nonwear.
     METValues_OneDay_Indices_BELOW1MET=(METValues_OneDay<1);
     CosecutiveOnes_Indices_BELOW1MET= find(diff([0;(METValues_OneDay_Indices_BELOW1MET);0]==1));
@@ -54,9 +54,7 @@ for k=2:length(DateList)-1 %First day is always excluded
     NonWearBout_indices=ConsecutiveOnes_Count_BELOW1MET>=300; % identify non-wear bouts
     NonWearBout_indices;
     if ~all(NonWearBout_indices==0)
-%         NonWearIdentified=1;
-%         k-1
-        continue; % CHANGE THIS TO COMMENT TO *PLOT* DAYS WITH NONWEAR BOUTS
+        continue; 
     end
     
 
