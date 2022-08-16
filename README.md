@@ -1,6 +1,6 @@
 # Extract Sleep Period From Polar Active
 
-This sctipt will first find all the sustained movement bouts lasting (MET values constantly ≥1 MET) for more than 45 minutes, and examine the preiods in-between these bouts, to see if these bouts are potentialsleep periods. However, this approach would result in identifying multiple periods. We selected the longest period as sleep period.
+This sctipt will first find all the sustained movement bouts lasting (MET values constantly ≥1 MET) for more than 45 minutes, and examine the preiods in-between these bouts, to see if these bouts are potential sleep periods. However, this approach would result in identifying multiple periods. We selected the longest period as sleep period.
 
 Use [Toy_data.csv](https://github.com/vahidfrr/SleepFromPolarActive/blob/main/Toy_data.csv) to run the code. 
 
