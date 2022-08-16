@@ -8,4 +8,4 @@ Use [Toy_data.csv](https://github.com/vahidfrr/SleepFromPolarActive/blob/main/To
 
 The output is a series of figures, marking the sleep periods on top of MET values. 
 
-The period per day will be in the list: RecRestSleep_List
+The sleep period per 24-hour will be in the list: RecRestSleep_List
