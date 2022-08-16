@@ -113,6 +113,8 @@ for k=2:length(DateList)-1 %First day is always excluded
     hold on;
     plot(TimeVectorForFigure(1:T_length),vector_RestBouts,...
     TimeVectorForFigure(1:T_length),RestBouts_Longest,'LineWidth',3)
-    legend('Met values','Potential sleep periods', 'Sleep period (longest inactive bout)')
+    xlabel('Date and time')
+    ylabel('30-sec MET values')
+    legend('Met values','Potential sleep periods', 'Sleep period (longest bout)')
     
 end
