@@ -8,4 +8,8 @@ Use [Toy_data.csv](https://github.com/vahidfrr/SleepFromPolarActive/blob/main/To
 
 The output is a series of figures, marking the sleep periods on top of MET values. 
 
+Here is an example from the  [Toy_data.csv](https://github.com/vahidfrr/SleepFromPolarActive/blob/main/Toy_data.csv):
+
+<img src="https://github.com/vahidfrr/<SleepFromPolarActive>/master/<name_of_the_image>" alt="selfie">
+
 The sleep period per 24-hour will be in the list: RecRestSleep_List
