@@ -10,6 +10,6 @@ The output is a series of figures, marking the sleep periods on top of MET value
 
 Here is an example from the  [Toy_data.csv](https://github.com/vahidfrr/SleepFromPolarActive/blob/main/Toy_data.csv):
 
-<img src="https://github.com/vahidfrr/<SleepFromPolarActive>/main/<Example of output.jpg>" alt="selfie">
+<img src="https://github.com/vahidfrr/<SleepFromPolarActive>/<Example of output.jpg>" alt="selfie">
 
 The sleep period per 24-hour will be in the list: RecRestSleep_List
